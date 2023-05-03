@@ -1,0 +1,10 @@
+import numpy as np
+ar1=np.zeros((2,3))
+ar2=np.ones((2,3))
+ar3=np.random.random((2,3))
+ar4=np.array(([20,30,40],[60,70,80]))
+print(ar1)
+print(ar2)
+print(ar3)
+print(ar4)
+print(np.concatenate((ar1,ar2)))  
